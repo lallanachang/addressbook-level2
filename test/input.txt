@@ -96,8 +96,10 @@
   find bet
   # does not match if none have keyword
   find 23912039120
-  # matching should be case-sensitive
+  # matching should be case-insensitive
   find betsy
+  # matching should be case-insensitive
+  find BETSY
 
   # find unique keyword
   find Betsy
